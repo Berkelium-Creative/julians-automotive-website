@@ -1,47 +1,134 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Julian's Automotive",
+  "tagline": "Family-run auto shop on Magnolia Boulevard, Burbank.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "BURBANK · MAGNOLIA BLVD · SINCE 2005",
+    "heading": "The Magnolia auto shop that gets it right.",
+    "subheading": "A family-run garage on Magnolia between Buena Vista and California. Two lifts, twenty years deep, written quotes on every job. We do brakes, oil, suspension, AC, and diagnostic — no upsells, ever.",
+    "ctaText": "Get a quote",
+    "ctaLink": "tel:8188467282",
+    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193c?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "label": "The shop",
+    "heading": "Two lifts. Twenty years. No upsells.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Julian's Automotive has been on Magnolia Boulevard since 2005. Two lifts, a senior technician on every job, and a service writer who answers his own phone.",
+      "We do day-one repairs and routine maintenance — brakes, oil, fluids, tires, alignment, suspension, AC service, and computer diagnostic. Anything more specialized we refer to a trusted friend's shop down the road.",
+      "Closed Sundays. Written quote on every job before we touch a wrench. Cash or card, same price."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Diagnostic",
+      "description": "Full OBD scan, live data, road test if needed. Printed report. Free with any repair we perform.",
+      "price": "$75"
+    },
+    {
+      "title": "Brakes",
+      "description": "Pads, rotors, calipers, fluid. Spec-matched friction. Bedded-in on the road before delivery.",
+      "price": "from $395"
+    },
+    {
+      "title": "Oil + 20-Point",
+      "description": "Synthetic-blend or full-synthetic, OEM filter, top-offs, documented 20-point inspection.",
+      "price": "from $85"
+    },
+    {
+      "title": "Tires + Alignment",
+      "description": "Four tires mounted and balanced plus four-wheel alignment. Michelin, Continental, Falken.",
+      "price": "from $660"
+    },
+    {
+      "title": "Suspension",
+      "description": "Struts, shocks, control arms, bushings. Four-wheel alignment after every install.",
+      "price": "from $495"
+    },
+    {
+      "title": "AC Service",
+      "description": "Diagnostic, leak check, evac-and-recharge. EPA-certified. Get it done before summer.",
+      "price": "from $145"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Robert M.",
+      "rating": 5,
+      "context": "Fifteen-year customer",
+      "text": "Julian's has been the shop for both my cars since I moved to Burbank. Never recommended a service I didn't need and never missed one I did. The bill is always exactly what was quoted."
+    },
+    {
+      "name": "Carlos D.",
+      "rating": 5,
+      "context": "Honda Civic 2014",
+      "text": "Brought in what I thought was a transmission job. Julian diagnosed it as a sixty-dollar mount, did the work the same afternoon, saved me a fifteen-hundred-dollar repair. Real shop."
+    },
+    {
+      "name": "Patty N.",
+      "rating": 5,
+      "context": "First-time customer",
+      "text": "Walked in for a brake job and walked out feeling like I'd met three friends. Julian's is family-run and it feels like a family. Safer than any chain in Burbank."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 846-7282",
+    "email": "hello@juliansautomotive.com",
+    "address": "4303 Magnolia Blvd, Burbank, CA 91505",
+    "mapEmbedQuery": "Julian's Automotive, 4303 Magnolia Blvd, Burbank, CA 91505",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "8:00 AM – 6:00 PM",
+      "Tuesday": "8:00 AM – 6:00 PM",
+      "Wednesday": "8:00 AM – 6:00 PM",
+      "Thursday": "8:00 AM – 6:00 PM",
+      "Friday": "8:00 AM – 6:00 PM",
+      "Saturday": "8:00 AM – 3:00 PM",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
   },
+  "social": {},
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Julian's Automotive — Magnolia Blvd auto shop in Burbank since 2005",
+    "description": "A family-run auto shop on Magnolia Blvd in Burbank. Diagnostic, brakes, oil, tires, suspension, AC. Written quotes free, no upsells.",
+    "keywords": [
+      "Burbank auto repair",
+      "Magnolia Blvd mechanic",
+      "family auto shop Burbank",
+      "Julian's Automotive"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#3F4D3A",
+    "accentColor": "#FACC15",
+    "fontFamily": "blackopsone-ibmplexsans-sharetechmono"
+  },
+  "designSystem": {
+    "searchQuery": "military stencil garage utility caution yellow army green spec sheet auto shop",
+    "styleName": "Military Stencil Garage (caution-yellow + army-green)",
+    "pattern": "Hero + Spec Manifest + CTA (stencil utility)",
+    "palette": {
+      "primary": "#3F4D3A",
+      "secondary": "#1A2516",
+      "cta": "#FACC15",
+      "accent": "#FACC15",
+      "background": "#F5F5F0",
+      "text": "#18181B",
+      "muted": "#57534E",
+      "border": "#18181B",
+      "surface": "#3F4D3A"
+    },
+    "typography": {
+      "heading": "Black Ops One",
+      "body": "IBM Plex Sans",
+      "label": "Share Tech Mono",
+      "mood": "Military stencil garage, utility manifest, caution-yellow signal, army-green primary, technical operator"
+    },
+    "moves": [
+      "Black Ops One stencil display — military-utility tracking",
+      "Caution-yellow + army-green palette — first stencil-military in the build",
+      "Caution-tape diagonal pattern strip top + bottom of visit section",
+      "Spec-grid background in hero — quadrille paper feel",
+      "All-caps headings with mono '// JOB 01' tracking — service manifest language",
+      "Yellow CTA visit block — first caution-yellow visit block in the build"
+    ]
   }
 }
